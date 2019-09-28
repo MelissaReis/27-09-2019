@@ -63,6 +63,9 @@ no shutdown
 interface serial 0/0/0 
 ip address 200.18.189.1 255.255.255.252
 no shutdown
+interface vlan 100
+ip address 172.16.3.1 255.255.255.224
+no shutdown
 ip route 200.18.189.0 255.255.255.252 200.18.189.1
 ip route 200.18.189.4 255.255.255.252 200.18.189.5
 ip route 200.18.189.0 255.255.255.252 200.18.189.5
