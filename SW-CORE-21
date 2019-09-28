@@ -21,6 +21,8 @@ exit
 service password-encryption
 interface vlan 100
 ip address 172.16.3.5 255.255.255.224
+interface vlan 100
+ip address 172.16.3.30 255.255.255.224
 no shutdown
 exit
 ip default-gateway 172.16.3.1
